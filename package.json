@@ -1,6 +1,6 @@
 {
   "name": "wudi-packages",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "这个是个人测试发布包的例子",
   "files": [
     "lib"
@@ -10,6 +10,10 @@
   "sideEffects": [
     "*.less"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/wo-wudi/wudi-packages.git"
+  },
   "scripts": {
     "start": "cross-env PORT=3333 dumi dev",
     "build": "father-build",
